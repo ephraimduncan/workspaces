@@ -21,8 +21,11 @@ export default function DegenTest({ children }) {
       <Box
         width="72"
         height="viewHeight"
+        position="sticky"
+
+
         padding={"10"}
-        position={{ md: 'fixed' }}
+
         borderRightWidth={"0.5"}
         borderColor="accentSecondary"
       >

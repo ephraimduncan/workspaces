@@ -1,11 +1,11 @@
 import { gql } from "graphql-request";
-import Layout from "../components/Layout";
+import Layout2 from "../components/Layout2";
 import Post from "../components/Post";
 import client from "../graphql/client";
 
 export default function Home(props) {
   return (
-    <Layout>
+    <Layout2>
       <div>
         <h1>Posts</h1>
         {props.publishedPosts.map((post) => {
@@ -16,7 +16,7 @@ export default function Home(props) {
           );
         })}
       </div>
-    </Layout>
+    </Layout2>
   );
 }
 
