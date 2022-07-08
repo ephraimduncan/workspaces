@@ -21,16 +21,14 @@ export default function DegenTest({ children }) {
       <Box
         width="72"
         height="viewHeight"
-        position="sticky"
-
-
         padding={"10"}
-
+        position="sticky"
+        top="0"
         borderRightWidth={"0.5"}
         borderColor="accentSecondary"
       >
         <Stack>
-          <Box marginY="10" alignSelf="center">
+          <Box marginY={{ md: "10", xl: "16" }} alignSelf="center">
             <Text font="mono" weight={"bold"} size={"extraLarge"}>
               workspaces
             </Text>
@@ -66,7 +64,7 @@ export default function DegenTest({ children }) {
               </Button>
             </Box>
           </Box>
-          <Box marginTop="16">
+          <Box marginTop={{ md: "16", xl: "24" }}>
             <Box marginY="2">
               <Card hover padding="2" borderRadius="large">
                 <Stack direction={"horizontal"} justify="space-between">
