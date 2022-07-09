@@ -61,7 +61,7 @@ export async function getServerSideProps({ req, res }) {
     }
   `;
 
-  const data = await client.request(query, { id: session.userId });
+  const data = await client.request(query, { id: session?.userId });
 
   return {
     props: data,

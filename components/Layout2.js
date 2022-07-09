@@ -99,13 +99,27 @@ export default function DegenTest({ children }) {
         // borderColor={"accentSecondary"}
       >
         <Stack direction={"horizontal"} justify={"space-between"}>
-          <Box height="24">
+          <Box height="24" width="full">
             <Heading level="1" color="textSecondary">
               Dashboard
             </Heading>
           </Box>
         </Stack>
-        <Box>{children}</Box>
+        <Box>
+          <Stack direction="horizontal" space="16">
+            <Box id="workspaces" width="3/4">
+              {children}
+            </Box>
+            <Box
+              id="recommended-users"
+              height="64"
+              width="1/4"
+              backgroundColor="teal"
+              position="sticky"
+              top="10"
+            ></Box>
+          </Stack>
+        </Box>
       </Box>
     </Stack>
   );
