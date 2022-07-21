@@ -15,7 +15,7 @@ export default function WorkspaceCard({
       marginY="8"
       padding="6"
       borderColor="accentSecondary"
-      borderWidth="0.75"
+      borderWidth="0.5"
       borderRadius="2xLarge"
     >
       <Box marginBottom="4">

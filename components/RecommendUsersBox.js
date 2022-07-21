@@ -12,7 +12,7 @@ export default function RecommendUsersBox() {
       position="sticky"
       top="10"
       padding="8"
-      borderWidth="0.75"
+      borderWidth="0.5"
       borderColor="accentSecondary"
     >
       <Text variant="extraLarge" color="textSecondary" marginY="4">
